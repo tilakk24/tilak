@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tilakeya</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Logo in Top Left Corner -->
+    <div class="logo-container">
+        <img src="k.svg" alt="Logo" class="logo">
+    </div>
+
+    <!-- Falling Flowers Container -->
+    <div class="flowers-container"></div>
+
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-left">
+                <div class="hero-text">
+                    <h1 class="main-title">Tilakeya</h1>
+                    <div class="romantic-card">
+                        <div class="romantic-loader">
+                            <p>You are my -></p>
+                            <div class="words">
+                                <span class="word">Love</span>
+                                <span class="word">Prem</span>
+                                <span class="word">Heart</span>
+                                <span class="word">FW</span>
+                                <span class="word">Keyu</span>
+                                <span class="word">Love</span>
+                                <span class="word">Dream</span>
+                                <span class="word">Heart</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-right">
+                <img src="3d_photo.jpg" alt="Tilakeya" class="hero-image">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Photo Upload Modal -->
+    <div id="photoModal" class="photo-modal">
+        <div class="photo-modal-content">
+            <h3>Upload Your Photo</h3>
+            <input type="file" id="photoInput" accept="image/*">
+            <div class="modal-buttons">
+                <button id="confirmPhotoBtn" class="btn-confirm">Upload</button>
+                <button id="closePhotoBtn" class="btn-cancel">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Story Section -->
+    <section id="story" class="story-section">
+        <div class="container">
+            <h2 class="section-title">Our Story</h2>
+            <div class="story-content">
+                <div class="story-card">
+                    <div class="story-icon">🌸</div>
+                    <h3>Beginning</h3>
+                    <p>Two souls found each other in the garden of life, creating a harmony that transcends time and
+                        space.</p>
+                </div>
+                <div class="story-card">
+                    <div class="story-icon">💫</div>
+                    <h3>Connection</h3>
+                    <p>Every moment shared becomes a precious memory, woven into the fabric of our beautiful journey
+                        together.</p>
+                </div>
+                <div class="story-card">
+                    <div class="story-icon">✨</div>
+                    <h3>Forever</h3>
+                    <p>In the dance of life, we move as one, creating a symphony of love that echoes through eternity.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Moments Section -->
+    <section id="moments" class="moments-section">
+        <div class="container">
+            <h2 class="section-title">Precious Moments</h2>
+            <div class="moments-grid">
+                <div class="moment-card">
+                    <div class="moment-image moment-1"
+                        style="background-image: url('1.jpeg'); background-size: cover; background-position: center;">
+                        <div class="moment-overlay"></div>
+                    </div>
+                    <h3>Laughter</h3>
+                    <p>Your smile lights up my world</p>
+                </div>
+                <div class="moment-card">
+                    <div class="moment-image moment-2"
+                        style="background-image: url('2.jpeg'); background-size: cover; background-position: center;">
+                        <div class="moment-overlay"></div>
+                    </div>
+                    <h3>Warmth</h3>
+                    <p>Your presence brings comfort</p>
+                </div>
+                <div class="moment-card">
+                    <div class="moment-image moment-3"
+                        style="background-image: url('3.jpeg'); background-size: cover; background-position: center;">
+                        <div class="moment-overlay"></div>
+                    </div>
+                    <h3>Dreams</h3>
+                    <p>Together we create magic</p>
+                </div>
+                <div class="moment-card">
+                    <div class="moment-image moment-4"
+                        style="background-image: url('4.jpeg'); background-size: cover; background-position: center;">
+                        <div class="moment-overlay"></div>
+                    </div>
+                    <h3>Forever</h3>
+                    <p>Endless moments await us</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Message Section -->
+    <section id="message" class="message-section">
+        <div class="message-content">
+            <h2 class="message-title">A Promise</h2>
+            <p class="message-text">
+                In every flower that falls, in every breath we take, in every moment we share—
+                <br><br>
+                <span class="highlight">I love you.</span>
+            </p>
+            <div class="floating-hearts">
+                <span class="heart">❤️</span>
+                <span class="heart">❤️</span>
+                <span class="heart">❤️</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Tilak | Made for Happiness</p>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
